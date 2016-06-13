@@ -1,10 +1,13 @@
 body{
 		background-color: #fff;
 }
+
 .navbar{
-	background-color:#283d51;
+	background-color:#334c66;
 	color:#000;
 	margin:0;
+	border-radius:0px;
+	border:none;
 }
 .hello-page{
 	background: url("http://akprostudio.pl/back.png");
@@ -22,6 +25,7 @@ body{
 	text-transform: uppercase;
 	font-size: 60px;
 	text-shadow: 0 1px 3px rgba(35,31,32,.8);
+	margin-top:85px;
 }
 .hello-buton{
 
@@ -33,6 +37,7 @@ body{
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	height:390px;
 
 }
 
@@ -72,7 +77,7 @@ nav li a{
 }
 .button-hello, .btn-default {
 	text-align: center;
-	background-color: #283d51;
+	background-color: #3d5b7a;
 	color:#fff;
 	transition: all 0.4s;
 	-webkit-transition: all 0.4s;
@@ -120,8 +125,13 @@ nav li a{
 	margin-top:1em;
 }
 
+/* Shop section*/
+.shop-title{
+	text-transform: uppercase;
+}
+
 footer{
-	background-color: #283d51;
+	background-color: #334c66;
 	color:#fff;
 }
 .footer-text{
