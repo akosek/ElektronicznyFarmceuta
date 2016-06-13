@@ -2,7 +2,7 @@ body{
 		background-color: #fff;
 }
 .navbar{
-	background-color:#9fbfdf;
+	background-color:#283d51;
 	color:#000;
 	margin:0;
 }
@@ -28,7 +28,7 @@ body{
 }
 
 .bannerglowna{
-	background: url("http://akprostudio.pl/back.png");
+	background: url("../img/home.jpg");
 	color: #fff;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -72,7 +72,7 @@ nav li a{
 }
 .button-hello, .btn-default {
 	text-align: center;
-	background-color: #84A0C6;
+	background-color: #283d51;
 	color:#fff;
 	transition: all 0.4s;
 	-webkit-transition: all 0.4s;
@@ -84,19 +84,19 @@ nav li a{
 	border:none;
 }
 .button-hello:hover, .btn-default:hover, .btn-primary:hover{
-	background-color: #d6dfec;
-	color:#2d5790;
+	background-color: #3d5b7a;
+	color:#fff;
 	opacity:0.8;
 	border:none;
 }
 .btn-primary{
-	background-color: #84A0C6;
+	background-color: #283d51;
 	color:#fff;
 	border:none;
 }
 .button-account{
 	text-align: center;
-	background-color: #84A0C6;
+	background-color: #283d51;
 	color:#fff;
 	transition: all 0.4s;
 	-webkit-transition: all 0.4s;
@@ -121,7 +121,7 @@ nav li a{
 }
 
 footer{
-	background-color: #9fbfdf;
+	background-color: #283d51;
 	color:#fff;
 }
 .footer-text{
