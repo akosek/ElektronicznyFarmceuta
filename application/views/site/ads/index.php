@@ -65,7 +65,7 @@
 
 			<p>&nbsp;</p>
 
-			<div class="jumbotron text-center">
+			<div class="text-center">
 			  <h3>Ilość aktualnych zleceń (aptek w serwisie): <?php echo count( $ads ); ?></h3>
 			</div>
 
