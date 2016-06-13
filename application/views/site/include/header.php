@@ -29,7 +29,7 @@
 
 <?php endif; ?>
 
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
 
@@ -49,7 +49,7 @@
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-			      <ul class="nav navbar-nav">
+			      <ul class="nav navbar-nav navbar-right">
 			        <li><a href="<?php echo base_url( 'ads/create' ) ?>">Dodaj aptekę</a></li>
 
 			        <?php if ( logged_in() == false ): ?>
@@ -61,7 +61,7 @@
 			        <?php if ( logged_in() == false ): ?>
 			        	<li><a href="#" data-toggle="modal" data-target="#Register">Zarejestruj się</a></li>
 			        <?php else: ?>
-			        	<li><a href="<?php echo base_url( 'account/index' ) ?>">Twoj konto</a></li>
+			        	<li><a href="<?php echo base_url( 'account/index' ) ?>">Twoje konto</a></li>
 			        <?php endif; ?>
 
 					<?php if ( logged_in() == true )
@@ -80,7 +80,7 @@
 			      </ul>
 
 				<?php echo form_open( 'ads/index' , 'class="navbar-form navbar-right" role="search"' ); ?>
-				    <div class="input-group">
+				  <!--  <div class="input-group">
 				      <input type="text" name="search" class="form-control" placeholder="Szukaj...">
 				      <span class="input-group-btn">
 				        <button type="submit" class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
@@ -99,7 +99,17 @@
 			    </div><!-- /.navbar-collapse -->
 
 			  </div><!-- /.container-fluid -->
-			</nav>	
+			</nav>
+      <div class="container-fluid hello-container">
+            <div class="row">
+              <div class="col-md-12 bannerglowna">
+                <h1 class="hello-text">Poznaj elektronicznego farmaceutę!</h1>
+                <button onclick="window.location.href='account/'" class="btn btn-secondary button-hello">Przejdź do swojego panelu!</button>
+                <br><br><br>
+              </div>
+            </div>
+          </div>
+
 
 			<nav class="navbar navbar-inverse">
 			  <div class="container-fluid">
@@ -112,6 +122,10 @@
 			        <span class="icon-bar"></span>
 			      </button>
 			    </div>
+
+
+
+
 
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
@@ -159,16 +173,16 @@
 									<li>
 										<a href="<?php echo base_url( 'ads/cat/' . $second->alias ) ?>"><?php echo $second->name; ?> <span class="badge"><?php echo !empty( $ads_cats_count_menu[$second->id] ) ? $ads_cats_count_menu[$second->id] : 0 ; ?></span> </a>
 									</li>
-									
+
 								<?php endif; ?>
-								
+
 							<?php endforeach; ?>
 
 						</ul>
 					</li>
 
 					<?php endif; ?>
-					
+
 				<?php endforeach; ?>
 
 			      </ul>
@@ -182,4 +196,3 @@
 		</div>
 	</div>
 </div>
-

@@ -1,4 +1,5 @@
-<div class="container hello-container">
+<?php require_once APPPATH . 'views/site/include/header.php'; ?>
+<!--<div class="container-fluid hello-container">
       <div class="row">
         <div class="col-md-12 bannerglowna">
           <h1 class="hello-text">Poznaj elektronicznego farmaceutę!</h1>
@@ -6,8 +7,8 @@
           <br><br><br>
         </div>
       </div>
-    </div>
-<?php require_once APPPATH . 'views/site/include/header.php'; ?>
+    </div>-->
+
 
 <div class="container">
 	<div class="row">
@@ -24,7 +25,7 @@
 					<?php foreach ( $promo_ads as $promo_ad ): ?>
 
 						<?php if ( $promo_ad->promo_date > time() ): ?>
-							
+
 							<li data-target="#carousel-example-generic" data-slide-to="<?php echo $i; ?>" <?php echo $i == 0 ? 'class="active"' : '' ; ?>></li>
 
 						<?php endif; ?>
@@ -71,6 +72,14 @@
 		</div>
 	</div>
 </div>
+<footer>
+  <div class="container">
+    <div class="col-md-12">
+      <p class="footer-text">Elektroniczny Farmaceuta:</p>
+      <p class="footer-last">tel: 663698144</p>
+    </div>
+  </div>
+</footer>
 
 <?php require_once APPPATH . 'views/site/include/footer.php'; ?>
 </body>

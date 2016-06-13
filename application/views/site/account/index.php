@@ -1,9 +1,9 @@
 <?php require_once APPPATH . 'views/site/include/header.php'; ?>
 
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12">
-			
+
 <h1>Twoje konto</h1>
 <hr>
 
@@ -49,7 +49,7 @@
 	<input id="city" class="form-control" type="text" name="city" placeholder="Miasto" value="<?php echo $user->city; ?>">
 </div>
 
-<?php 
+<?php
 $lista_panstw = array(
 "1"=>"Abchazja",
 "2"=>"Afganistan",
@@ -260,7 +260,7 @@ $lista_panstw = array(
 		<?php foreach ( $lista_panstw as $panstwo ): ?>
 
 			<?php if ( !empty( $user->country ) ): ?>
-				
+
 				<?php if ( $user->country == $panstwo ): ?>
 					<option value="<?php echo $panstwo; ?>" selected><?php echo $panstwo; ?></option>
 				<?php else: ?>
@@ -298,6 +298,15 @@ $lista_panstw = array(
 		</div>
 	</div>
 </div>
+
+<footer>
+  <div class="container">
+    <div class="col-md-12">
+      <p class="footer-text">Elektroniczny Farmaceuta:</p>
+      <p class="footer-last">tel: 663698144</p>
+    </div>
+  </div>
+</footer>
 
 <?php require_once APPPATH . 'views/site/include/footer.php'; ?>
 </body>

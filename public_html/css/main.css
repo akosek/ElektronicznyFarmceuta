@@ -1,9 +1,10 @@
 body{
-		background-color: #c5e6f9;
+		background-color: #fff;
 }
 .navbar{
-	background-color: #84A0C6;
+	background-color:#9fbfdf;
 	color:#000;
+	margin:0;
 }
 .hello-page{
 	background: url("http://akprostudio.pl/back.png");
@@ -29,7 +30,10 @@ body{
 .bannerglowna{
 	background: url("http://akprostudio.pl/back.png");
 	color: #fff;
-	
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -45,10 +49,10 @@ nav li a{
 	color:#000;
 }
 
-
 .navbar-brand{
-	color:#000;
+	color:#fff !important;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 .tab-content {
 	color:#000;
@@ -66,18 +70,21 @@ nav li a{
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
 	border: 1px solid #000;
 }
-.button-hello {
+.button-hello, .btn-default {
 	text-align: center;
 	background-color: #84A0C6;
-	color:#000;
+	color:#fff;
 	transition: all 0.4s;
 	-webkit-transition: all 0.4s;
 	margin-right:20px;
 	margin-top:20px;
 	padding:12px 28px;
 	font-size:16px;
+	border-radius:4px;
+
+
 }
-.button-hello:hover{
+.button-hello:hover, .btn-default:hover{
 	background-color: #d6dfec;
 	color:#2d5790;
 	opacity:0.8;
@@ -106,4 +113,16 @@ nav li a{
 }
 .login>.button-account{
 	margin-top:1em;
+}
+
+footer{
+	background-color: #9fbfdf;
+	color:#fff;
+}
+.footer-text{
+	padding-top:10px;
+
+}
+.footer-last{
+	padding-bottom:10px;
 }

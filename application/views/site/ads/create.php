@@ -18,15 +18,15 @@
 <?php echo form_open(); ?>
 
 	<?php if ( !empty( $uploaded_files ) ): ?>
-		
+
 		<?php foreach ( $uploaded_files as $file ): ?>
-			
+
 
 			<label for="<?php echo $file; ?>">
 				<img src="<?php echo $temp_url . $file; ?>" alt=""><br>
 				<input type="radio" name="thumb" id="<?php echo $file; ?>" value="<?php echo $file; ?>">
 			</label>
-			
+
 			<a href="<?php echo base_url( 'ads/delimg/' . $file ); ?>">Usuń</a>
 			<br>
 
@@ -68,7 +68,7 @@
 	<label for="kategoria">Wybierz Kategorie</label>
 
 	<select id="kategoria" class="form-control" name="category_id">
-		
+
 		<?php foreach ( $first_level as $first ): ?>
 
 			<option value="<?php echo $first->id; ?>">
@@ -85,12 +85,12 @@
 						<?php echo $second->name; ?>
 					</option>
 
-					
+
 				<?php endif; ?>
-				
+
 			<?php endforeach; ?>
 
-			
+
 		<?php endforeach; ?>
 
 	</select>
@@ -127,6 +127,14 @@
 		</div>
 	</div>
 </div>
+<footer>
+  <div class="container">
+    <div class="col-md-12">
+      <p class="footer-text">Elektroniczny Farmaceuta:</p>
+      <p class="footer-last">tel: 663698144</p>
+    </div>
+  </div>
+</footer>
 
 <?php require_once APPPATH . 'views/site/include/footer.php'; ?>
 </body>
