@@ -1,5 +1,17 @@
+@font-face {
+    font-family: GothamMedium;
+    src: url(../fonts/Gotham-Medium.ttf);
+}
+
 body{
 		background-color: #fff;
+		font-family: GothamMedium;
+}
+.navbar-right li a {
+	color:#fff;
+}
+.navbar-right li a:hover, .navbar-right li a:focus {
+	background-color: #334c66;
 }
 
 .navbar{
@@ -110,6 +122,10 @@ nav li a{
 	background-color: #d6dfec;
 	color:#2d5790;
 }
+.modal-title{
+	text-align: center;
+	text-transform: uppercase;
+}
 .login-box{
 	border: 2px solid #84A0C6;
 	color:#84A0C6;
@@ -123,6 +139,13 @@ nav li a{
 }
 .login>.button-account{
 	margin-top:1em;
+}
+
+.carousel-indicators .active {
+	background-color: #334c66;
+}
+.carousel-indicators li {
+	border: 1px solid #334c66;
 }
 
 /* Shop section*/

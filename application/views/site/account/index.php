@@ -8,7 +8,7 @@
 <hr>
 
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-sm-4 col-md-4">
 
 <?php echo form_open(); ?>
 
