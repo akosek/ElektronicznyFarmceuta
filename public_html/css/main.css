@@ -151,9 +151,35 @@ nav li a{
 .filrt-button{
 	margin-left:55px;
 }
-/*.filtr-box{
-  margin-top: 10%;
-}*/
+.filtr-box{
+  border: 2px solid #3d5b7a;
+  padding:30px;
+  border-radius:10px;
+}
+.filrt-button{
+  margin-left: 96px;
+padding-left: 19px;
+padding-right: 19px;
+padding-top: 5px;
+padding-bottom: 7px;
+margin-top: 24px;
+background-color: #3d5b7a;
+color:#fff;
+}
+.title-shop{
+  color:#3d5b7a;
+  font-size:24px;
+  text-transform: uppercase;
+}
+.title-shop a{
+  color:#3d5b7a;
+}
+.title-shop a:hover{
+  text-decoration: none;
+  color:#3d5b7a;
+  opacity:0.8;
+  font-size:28px;
+}
 .candidateContainer{
   padding-top:50px;
   padding-bottom:50px;
@@ -249,4 +275,10 @@ footer{
 }
 .footer-last{
 	padding-bottom:10px;
+}
+.alert-warning {
+  background-color: #3d5b7a;
+  color:#fff;
+  opacity:0.8;
+  border:none;
 }
