@@ -39,10 +39,6 @@ body{
 	text-shadow: 0 1px 3px rgba(35,31,32,.8);
 	margin-top:85px;
 }
-.hello-buton{
-
-}
-
 .bannerglowna{
 	background: url("../img/home.jpg");
 	color: #fff;
@@ -50,18 +46,29 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	height:390px;
-
 }
 
 .navbar-default .navbar-nav>li>a {
     color: #fff;
 }
-
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
 }
 
-
+.dropdown-menu>li>a {
+	padding-left:33px;
+	padding-right:35px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	color:#3d5b7a;
+}
+.dropdown-menu{
+	border:none;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+	background-color: #fff;
+	color:#3d5b7a;
+}
 nav li a{
 	color:#000;
 }
@@ -86,6 +93,26 @@ nav li a{
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
 	border: 1px solid #000;
+}
+/* Kwalifikacje kandydaa */
+.candidate-options{
+	margin-top: 24px;
+}
+.filrt-button{
+	margin-left:55px;
+}
+.filtr-box{
+  margin-top: 10%;
+}
+.candidateContainer{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.title {
+  color: #3d5b7a;
+}
+.border-blue{
+  border: 1px solid #3d5b7a;
 }
 .button-hello, .btn-default {
 	text-align: center;
@@ -156,6 +183,8 @@ nav li a{
 footer{
 	background-color: #334c66;
 	color:#fff;
+  padding-top:50px;
+  padding-bottom:50px;
 }
 .footer-text{
 	padding-top:10px;

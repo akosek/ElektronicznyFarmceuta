@@ -53,6 +53,15 @@
 	</div>
 </div>
 
+<footer>
+  <div class="container">
+    <div class="col-md-12">
+      <p class="footer-text">Elektroniczny Farmaceuta:</p>
+      <p class="footer-last">tel: 663698144</p>
+    </div>
+  </div>
+</footer>
+
 <?php require_once APPPATH . 'views/admin/include/footer.php'; ?>
 </body>
 </html>
