@@ -88,6 +88,9 @@ nav li a{
 .form-tex {
   color:#3d5b7a;
 }
+.form-input {
+  margin-bottom: 15px;
+}
 
 .register-button{
   margin-right:15px;

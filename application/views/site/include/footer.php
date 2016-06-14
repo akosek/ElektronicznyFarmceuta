@@ -18,21 +18,11 @@
 		<div class="row">
 			<div class="col-xs-6 col-xs-offset-3">
 				<input type="text" name="email" placeholder="Email" class="form-control">
-			</div>
-		</div>
+        <input type="password" name="password" placeholder="Hasło" class="form-control">
 
-		<p>&nbsp;</p>
 
-		<div class="row">
-			<div class="col-xs-6 col-xs-offset-3">
-				<input type="password" name="password" placeholder="Hasło" class="form-control">
-			</div>
-		</div>
-
-		<p>&nbsp;</p>
-
-		<div class="row">
-			<div class="col-xs-6 col-xs-offset-3">
+      </div>
+      <div class="col-xs-6 col-xs-offset-3">
 				Zapamiętaj mnie <input type="checkbox" name="remember" value="1">
 				<a href="<?php echo base_url( 'account/forgot-password' ); ?>" class="pull-right">Zapomniałeś hasła?</a>
 			</div>
@@ -40,8 +30,9 @@
 
 
 
+		<div class="row">
 
-
+		</div>
       </div>
       <div class="modal-footer">
         <button type="submit" class="btn btn-primary">Zaloguj się</button>
