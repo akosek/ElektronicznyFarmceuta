@@ -55,10 +55,10 @@
 </div>
 
 <div class="form-group">
-<label for="inputEmail3" class="col-sm-4 col-md-3 control-label">Temat</label>
-<div class="col-sm-8 col-md-8">
-	<input type="text" name="subject" placeholder="Temat wiadomości" class="form-control">
-</div>
+	<label for="inputEmail3" class="col-sm-4 col-md-3 control-label">Temat</label>
+	<div class="col-sm-8 col-md-8">
+		<input type="text" name="subject" placeholder="Temat wiadomości" class="form-control">
+	</div>
 </div>
 
 <div class="form-group">
@@ -80,7 +80,7 @@
 <p>&nbsp;</p>
 
 <footer>
-  <div class="container">
+  <div class="container-fluid">
     <div class="col-md-12">
       <p class="footer-text">Elektroniczny Farmaceuta:</p>
       <p class="footer-last">tel: 663698144</p>

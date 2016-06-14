@@ -300,7 +300,7 @@ $lista_panstw = array(
 </div>
 
 <footer>
-  <div class="container">
+  <div class="container-fluid">
     <div class="col-md-12">
       <p class="footer-text">Elektroniczny Farmaceuta:</p>
       <p class="footer-last">tel: 663698144</p>

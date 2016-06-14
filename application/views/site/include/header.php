@@ -29,7 +29,7 @@
 
 <?php endif; ?>
 
-<div class="container-fluid">
+<div class="container-fluid mainContainer">
 	<div class="row">
 		<div class="col-md-12">
 
@@ -59,7 +59,7 @@
 			        <?php endif; ?>
 
 			        <?php if ( logged_in() == false ): ?>
-			        	<li><a href="#" data-toggle="modal" data-target="#Register">Zarejestruj się</a></li>
+			        	<li><a class="register-button" href="#" data-toggle="modal" data-target="#Register">Zarejestruj się</a></li>
 			        <?php else: ?>
 			        	<li><a href="<?php echo base_url( 'account/index' ) ?>">Twoje konto</a></li>
 			        <?php endif; ?>
@@ -104,7 +104,7 @@
             <div class="row">
               <div class="col-md-12 bannerglowna">
                 <h1 class="hello-text">Poznaj elektronicznego farmaceutę!</h1>
-                <button onclick="window.location.href='account/'" class="btn btn-secondary button-hello">Przejdź do swojego panelu!</button>
+              <!--  <button onclick="window.location.href='account/'" class="btn btn-secondary button-hello">Przejdź do swojego panelu!</button>-->
                 <br><br><br>
               </div>
             </div>

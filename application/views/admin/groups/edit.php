@@ -9,9 +9,7 @@
 
 <div class="row">
 	<div class="col-sm-5">
-
 <?php echo form_open(); ?>
-
 <div class="form-group">
 	<label for="name">Nazwa</label>
 	<input id="name" class="form-control" type="text" name="name" placeholder="Nazwa" value="<?php echo $group->name; ?>">
@@ -32,6 +30,15 @@
 		</div>
 	</div>
 </div>
+
+<footer>
+  <div class="container-fluid">
+    <div class="col-md-12">
+      <p class="footer-text">Elektroniczny Farmaceuta:</p>
+      <p class="footer-last">tel: 663698144</p>
+    </div>
+  </div>
+</footer>
 
 <?php require_once APPPATH . 'views/admin/include/footer.php'; ?>
 </body>

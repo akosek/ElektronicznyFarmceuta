@@ -7,6 +7,10 @@ body{
 		background-color: #fff;
 		font-family: GothamMedium;
 }
+.mainContainer{
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .navbar-right li a {
 	color:#fff;
 }
@@ -37,7 +41,8 @@ body{
 	text-transform: uppercase;
 	font-size: 60px;
 	text-shadow: 0 1px 3px rgba(35,31,32,.8);
-	margin-top:85px;
+	position:absolute;
+  bottom:80px;
 }
 .bannerglowna{
 	background: url("../img/home.jpg");
@@ -73,10 +78,25 @@ nav li a{
 	color:#000;
 }
 
+/*Register Form */
+.register-form input{
+  margin-bottom:15px;
+}
+.first-form{
+  margin-top: 15px;
+}
+.form-tex {
+  color:#3d5b7a;
+}
+
+.register-button{
+  margin-right:15px;
+}
 .navbar-brand{
 	color:#fff !important;
 	font-weight: bold;
 	text-transform: uppercase;
+  margin-left:15px !important;
 }
 .tab-content {
 	color:#000;
@@ -101,9 +121,9 @@ nav li a{
 .filrt-button{
 	margin-left:55px;
 }
-.filtr-box{
+/*.filtr-box{
   margin-top: 10%;
-}
+}*/
 .candidateContainer{
   padding-top:50px;
   padding-bottom:50px;
@@ -183,8 +203,9 @@ nav li a{
 footer{
 	background-color: #334c66;
 	color:#fff;
-  padding-top:50px;
-  padding-bottom:50px;
+  padding-top:30px;
+  padding-bottom:30px;
+
 }
 .footer-text{
 	padding-top:10px;

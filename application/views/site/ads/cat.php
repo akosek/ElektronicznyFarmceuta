@@ -17,7 +17,7 @@
 					<button type="submit" class="btn btn-default filrt-button" type="button">Filtruj</button>
 				</div>
 				</form>
-			
+
 		</div>
 
 		<div class="col-sm-6 col-md-6">
@@ -42,15 +42,14 @@
 	</div>
 
 
-
-<footer>
-  <div class="container">
-    <div class="col-md-12">
-      <p class="footer-text">Elektroniczny Farmaceuta:</p>
-      <p class="footer-last">tel: 663698144</p>
-    </div>
-  </div>
-</footer>
+	<footer>
+	  <div class="container-fluid">
+	    <div class="col-md-12">
+	      <p class="footer-text">Elektroniczny Farmaceuta:</p>
+	      <p class="footer-last">tel: 663698144</p>
+	    </div>
+	  </div>
+	</footer>
 
 <?php require_once APPPATH . 'views/site/include/footer.php'; ?>
 </body>
