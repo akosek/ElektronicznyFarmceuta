@@ -7,6 +7,28 @@ body{
 		background-color: #fff;
 		font-family: GothamMedium;
 }
+.send-button{
+  background-color: #334c66;
+  color:#fff;
+}
+
+.containerPadding{
+    padding-top:30px;
+    padding-bottom:60px;
+}
+.icon-bar{
+  background-color: #fff;
+}
+.password-button{
+  margin-top: 15px;
+}
+.text-blue{
+  color:#334c66;
+}
+.offerContainer{
+  padding-top:50px;
+  padding-bottom: 50px;
+}
 .mainContainer{
   padding-left: 0px;
   padding-right: 0px;
@@ -91,7 +113,12 @@ nav li a{
 .form-input {
   margin-bottom: 15px;
 }
-
+.fom-box{
+  margin-bottom:15px;
+}
+#myModalLabel{
+  color:#3d5b7a;
+}
 .register-button{
   margin-right:15px;
 }
@@ -150,7 +177,7 @@ nav li a{
 	border-radius:4px;
 	border:none;
 }
-.button-hello:hover, .btn-default:hover, .btn-primary:hover{
+.button-hello:hover, .btn-default:hover, .btn-primary:hover, .send-button:hover{
 	background-color: #3d5b7a;
 	color:#fff;
 	opacity:0.8;
@@ -197,10 +224,16 @@ nav li a{
 .carousel-indicators li {
 	border: 1px solid #334c66;
 }
-
+.text-info{
+  color: #334c66;
+  font-weight: bold;
+  font-size:20px;
+  margin-bottom:20px;
+}
 /* Shop section*/
 .shop-title{
 	text-transform: uppercase;
+  color:#334c66;
 }
 
 footer{

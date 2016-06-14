@@ -17,24 +17,20 @@
 
 		<div class="row">
 			<div class="col-xs-6 col-xs-offset-3">
-				<input type="text" name="email" placeholder="Email" class="form-control">
-        <input type="password" name="password" placeholder="Hasło" class="form-control">
-
-
+				<input type="text" name="email" placeholder="Email" class="form-control fom-box">
+        <input type="password" name="password" placeholder="Hasło" class="form-control fom-box">
       </div>
-      <div class="col-xs-6 col-xs-offset-3">
-				Zapamiętaj mnie <input type="checkbox" name="remember" value="1">
-				<a href="<?php echo base_url( 'account/forgot-password' ); ?>" class="pull-right">Zapomniałeś hasła?</a>
+    </div>
+    <div class="row">
+      <div class="col-xs-8 col-xs-offset-3">
+				<input type="checkbox" name="remember" value="1" class="text-blue"> Zapamiętaj mnie</input>
 			</div>
 		</div>
 
 
-
-		<div class="row">
-
-		</div>
       </div>
       <div class="modal-footer">
+      	<a href="<?php echo base_url( 'account/forgot-password' ); ?>" class="pull-left" class="text-blue">Zapomniałeś hasła?</a>
         <button type="submit" class="btn btn-primary">Zaloguj się</button>
       </div>
 

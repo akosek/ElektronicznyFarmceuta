@@ -10,10 +10,10 @@
     </div>-->
 
 
-<div class="container">
+<div class="container offerContainer">
 	<div class="row">
 		<div class="col-md-12">
-			<center><h1>Zobacz promowane ogłoszenia</h1> </center>
+			<center><h1 class="text-blue">Zobacz promowane ogłoszenia</h1> </center>
 
 			<?php if ( $promo_ads ): ?>
 
@@ -63,17 +63,18 @@
 
 			<?php endif; ?>
 
-			<p>&nbsp;</p>
+
 
 			<div class="text-center">
-			  <h3>Ilość aktualnych zleceń (aptek w serwisie): <?php echo count( $ads ); ?></h3>
+			  <h4>Ilość aktualnych zleceń (aptek w serwisie): <?php echo count( $ads ); ?></h4>
 			</div>
 
-		</div>
+
+	</div>
 	</div>
 </div>
 <footer>
-  <div class="container">
+  <div class="container-fluid">
     <div class="col-md-12">
       <p class="footer-text">Elektroniczny Farmaceuta:</p>
       <p class="footer-last">tel: 663698144</p>

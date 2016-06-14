@@ -1,8 +1,8 @@
 <?php require_once APPPATH . 'views/site/include/header.php'; ?>
 
-<div class="container">
+<div class="container containerPadding">
 	<div class="row">
-		<div class="col-xs-6 col-md-6">
+		<div class="col-xs-12 col-md-6">
 
 <?php if ( $user_id == $ad->user_id || check_group( 1 ) == true ): ?>
 	<div>
@@ -36,7 +36,7 @@
 <p>&nbsp;</p>
 </div>
 <div class="col-xs-12 col-md-6">
-	<h2>Skontaktuj się z ogłoszeniodawcą</h2>
+	<h2 class="text-blue">Skontaktuj się z ogłoszeniodawcą</h2>
 
 	<p><strong>Email: <?php echo $user->email; ?></strong></p>
 	<p><strong>Telefon: <?php echo $user->phone; ?></strong></p>
@@ -68,8 +68,8 @@
 </div>
 </div>
 
-<div class="col-sm-12 col-md-12">
-	<button type="submit" class="btn btn-success btn-block">Wyślij wiadmość</button>
+<div class="col-sm-6 col-md-6" style="text-align:center;">
+	<button type="submit" class="btn btn-block send-button pull-right">Wyślij wiadmość</button>
 </div>
 <?php echo form_close(); ?>
 </div>
