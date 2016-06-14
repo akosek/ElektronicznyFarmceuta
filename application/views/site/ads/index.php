@@ -9,11 +9,24 @@
       </div>
     </div>-->
 
-
-<div class="container offerContainer">
+<div class="container">
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12" style="margin-top:5px;">
 			<center><h1 class="text-blue">Zobacz promowane ogłoszenia</h1> </center>
+
+				<div class="text-center">
+					<h4>Ilość aktualnych zleceń (aptek w serwisie): <?php echo count( $ads ); ?></h4>
+				</div>
+
+			<hr style="margin-top:25px; border-top:1px solid #607992;"></hr>
+		</div>
+	</div>
+</div>
+<div class="container offerContainer">
+
+	<div class="row">
+		<div class="col-md-7">
+
 
 			<?php if ( $promo_ads ): ?>
 
@@ -65,13 +78,12 @@
 
 
 
-			<div class="text-center">
-			  <h4>Ilość aktualnych zleceń (aptek w serwisie): <?php echo count( $ads ); ?></h4>
-			</div>
+
 
 
 	</div>
-	</div>
+</div>
+
 </div>
 <footer>
   <div class="container-fluid">
