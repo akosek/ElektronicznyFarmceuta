@@ -15,7 +15,7 @@
 			<center><h1 class="text-blue">Zobacz promowane ogłoszenia</h1> </center>
 
 				<div class="text-center">
-					<h4>Ilość aktualnych zleceń (aptek w serwisie): <?php echo count( $ads ); ?></h4>
+					<h4 style="color:#84A0C6;">Ilość aktualnych zleceń (aptek w serwisie): <?php echo count( $ads ); ?></h4>
 				</div>
 
 			<hr style="margin-top:25px; border-top:1px solid #607992;"></hr>

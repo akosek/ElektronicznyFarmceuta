@@ -10,6 +10,10 @@ body{
 .send-button{
   background-color: #334c66;
   color:#fff;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width:50%;
 }
 
 .containerPadding{
@@ -178,7 +182,6 @@ color:#fff;
   text-decoration: none;
   color:#3d5b7a;
   opacity:0.8;
-  font-size:28px;
 }
 .candidateContainer{
   padding-top:50px;
@@ -203,11 +206,16 @@ color:#fff;
 	border-radius:4px;
 	border:none;
 }
-.button-hello:hover, .btn-default:hover, .btn-primary:hover, .send-button:hover{
+.button-hello:hover, .btn-default:hover, .btn-primary:hover{
 	background-color: #3d5b7a;
 	color:#fff;
 	opacity:0.8;
 	border:none;
+}
+.send-button:hover, .send-button:focus{
+  background-color: #3d5b7a;
+  color:#fff;
+  opacity:0.8;
 }
 .btn-primary{
 	background-color: #283d51;

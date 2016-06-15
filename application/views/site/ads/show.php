@@ -68,7 +68,7 @@
 </div>
 </div>
 
-<div class="col-sm-6 col-md-6" style="text-align:center;">
+<div class="col-sm-12 col-md-12" style="text-align:center;">
 	<button type="submit" class="btn btn-block send-button pull-right">Wyślij wiadmość</button>
 </div>
 <?php echo form_close(); ?>
